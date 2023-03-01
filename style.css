@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    margin-top: 180px;
+    width: 1024px auto;
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    padding: 24px;
+    justify-content: center;
+}
+
+form{
+    padding: 8px;
+    margin-bottom: 50px;
+}
+
+form h1{
+    font-size: 50px;
+    color: rgb(0, 83, 125);
+}
+
+form input{
+    padding:8px;
+    margin:6px;
+    width: 300px;
+}
+
+form button{
+    background-color:rgb(0,83,125) ;
+    color:white ;
+    width: 230px;
+    height: 30px;
+    margin: 6px;
+}
+
+form button:hover{
+    background-color:rgb(0, 63, 92) ;
+    cursor: pointer;
+}

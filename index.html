@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Unico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="form_section">
+        <div class="container">
+            <form>
+                <h1>Cadastro Unico</h1>
+                <div>
+                    <label for="nome"></label>
+                    <input type="text" required placeholder="Nome" id="name" name="name">
+                </div>
+                <div>
+                    <label for="e-mail"></label>
+                    <input type="email" placeholder="E-mail" id="email" name="email">
+                </div>
+                <div>
+                    <label for="telefone"></label>
+                    <input type="tel" placeholder="Telefone" id="telefone" name="telefone">
+                </div>
+                <div>
+                    <label for="cpf"></label>
+                    <input type="text" required placeholder="Cpf" id="cpf" name="cpf">
+                </div>
+                <div>
+                    <label for="Endereço-completo"></label>
+                    <input type="text" required placeholder="Endereço-completo" id="address" name="address">
+                </div>
+                <div>
+                    <label for="cep"></label>
+                    <input type="text" required placeholder="Cep" id="cep" name="cep">
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./JS/jquery.mask.min.js"></script>
+
+    <script src="./JS/index_js.js"></script>
+</body>
+</html>
